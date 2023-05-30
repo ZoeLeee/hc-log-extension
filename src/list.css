@@ -1,0 +1,35 @@
+.message{
+    list-style: none;
+    height: calc(100% - 21px);
+    overflow: auto;
+}
+
+.message>li{
+    width: 50%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.message .leftMsg{
+    text-align: left;
+}
+
+.message .avatar{
+    width: 30px;
+    height: 30px;
+    background: #dfd6d6;
+    margin-right: 2px;
+}
+.message .contentContainer{
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+}
+.message .contentContainer .time{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.message .contentContainer>.content{
+    background: #fff;
+    padding: 6px;
+}
